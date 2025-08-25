@@ -36,7 +36,7 @@ const colorize = (...args) => ({
 // Access command-line arguments (process.argv)
 // Ignore the first two default args (corresponding to 'node'->argv[0] and 'server.js'->argv[1])
 const args      = process.argv.slice(2);
-const defport   = '8000';
+const defport = process.env.PORT || '8000';
 let port        = defport;
 
 (async () => {
