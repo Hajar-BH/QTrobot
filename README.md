@@ -4,6 +4,7 @@
 
 • Afin d'installer tous les packages dépendants (cf. 'package.json', -> "dependencies")
   > npm i
+
 | Lancement du serveur|
 # Commandes disponibles pour lancer le serveur rapidement :
 
